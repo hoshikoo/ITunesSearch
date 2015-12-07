@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/music"
+            android:checked="false"
+            android:title="Music"
+            android:icon="@drawable/ic_action_hardware_headset"/>
+
+        <item
+            android:id="@+id/software"
+            android:checked="false"
+            android:title="Software"
+            android:icon="@drawable/ic_action_hardware_headset"/>
+
+        <item
+            android:id="@+id/movies"
+            android:checked="false"
+            android:title="Movies"
+            android:icon="@drawable/ic_action_hardware_headset"/>
+
+        <item
+            android:id="@+id/podcasts"
+            android:checked="false"
+            android:title="Podcasts"
+            android:icon="@drawable/ic_action_hardware_headset"/>
+
+
+        <item
+            android:id="@+id/musicVideos"
+            android:checked="false"
+            android:title="Videos"
+            android:icon="@drawable/ic_action_hardware_headset"/>
+
+        <item
+            android:id="@+id/tvShow"
+            android:checked="false"
+            android:title="TV Shows"
+            android:icon="@drawable/ic_action_hardware_headset"/>
+
+
+
+    </group>
+</menu>
